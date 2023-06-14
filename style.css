@@ -18,9 +18,13 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-color: white;
-    display: flex;
-    justify-content: start;
     padding: 2rem;
+    /* display: flex;
+    justify-content: start; */
+  }
+  header p {
+    font-size: 16px;
+    width: 55%;
   }
   section {
     display: flex;
@@ -29,10 +33,12 @@
     border-bottom-left-radius: 15px;
     background-color: hsl(179, 62%, 43%);
     padding: 3rem;
+    width: 50%;
   }
   summary {
     border-bottom-right-radius: 15px;
     background-color: hsla(179, 62%, 43%, 0.7);
     padding: 3rem;
+    width: 50%;
   }
 }
