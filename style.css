@@ -1,5 +1,6 @@
 @media(min-width: 376px) {
   body {
+    font-family: 'Karla';
     background-color: hsl(204, 43%, 93%);
     display: flex;
     flex-direction: column;
@@ -12,7 +13,7 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
   }
   header {
     border-top-left-radius: 15px;
@@ -22,9 +23,22 @@
     /* display: flex;
     justify-content: start; */
   }
+  header h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+  }
+  header h3 {
+    font-size: 21px;
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+  }
   header p {
-    font-size: 16px;
-    width: 55%;
+    font-size: 18px;
+    width: 95%;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.8;
+    letter-spacing: 0.4px;
+    font-weight: 400;
   }
   section {
     display: flex;
@@ -33,7 +47,47 @@
     border-bottom-left-radius: 15px;
     background-color: hsl(179, 62%, 43%);
     padding: 3rem;
+    padding-top: 1.5rem;
     width: 50%;
+  }
+  aside h1, h2 {
+    color: hsl(204, 43%, 93%);
+  }
+  aside h2 {
+    margin-top: -0.2rem;
+    display: flex;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  aside > h2 > span {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsla(204, 43%, 93%, 0.5);
+    display: inline-block;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+  aside p {
+    margin-top: -1rem;
+    color: white;
+  }
+  aside button {
+    margin-top: 1rem;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+  }
+  aside button:hover {
+    background-color: hsla(71, 73%, 54%, 0.8);
+  }
+  aside button:active {
+    background-color: hsla(71, 73%, 54%, 0.4);
   }
   summary {
     border-bottom-right-radius: 15px;
