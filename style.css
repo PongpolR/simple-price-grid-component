@@ -11,13 +11,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   header {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    /* margin-left: 35rem;
+    margin-right: 35rem; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     background-color: white;
     padding: 2rem;
     /* display: flex;
@@ -44,7 +45,7 @@
     display: flex;
   }
   aside {
-    border-bottom-left-radius: 15px;
+    border-bottom-left-radius: 10px;
     background-color: hsl(179, 62%, 43%);
     padding: 3rem;
     padding-top: 1.5rem;
@@ -54,7 +55,7 @@
     color: hsl(204, 43%, 93%);
   }
   aside h2 {
-    margin-top: -0.2rem;
+    margin-top: -0.3rem;
     display: flex;
     font-weight: 700;
     font-size: 32px;
@@ -90,9 +91,45 @@
     background-color: hsla(71, 73%, 54%, 0.4);
   }
   summary {
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: 10px;
     background-color: hsla(179, 62%, 43%, 0.7);
     padding: 3rem;
     width: 50%;
+    /* padding-top: 1.5rem; */
+    padding-bottom: 1rem;
+
+  }
+  summary h1 {
+    margin-top: -0.3rem;
+    color: hsl(204, 43%, 93%);
+  }
+  summary p {
+    color: hsla(204, 43%, 93%, 0.7);
+    width: 75%;
+    line-height: 1.5;
+  }
+}
+
+/* Desktop full screen */
+@media (min-width: 1080px) {
+  main {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+/* Desktop full screen */
+@media (min-width: 1200px) {
+  main {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+}
+
+/* Desktop full screen */
+@media (min-width: 1440px) {
+  main {
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 }
