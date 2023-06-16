@@ -8,11 +8,16 @@
     justify-content: center;
   }
   main {
+    box-shadow: hsl(218, 22%, 67%) 0px 7px 29px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 3rem;
     margin-right: 3rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   header {
     /* margin-left: 35rem;
@@ -83,6 +88,7 @@
     padding: 1rem;
     width: 100%;
     cursor: pointer;
+    box-shadow: hsla(218, 22%, 67%, 0.6) 0px 7px 29px 0px;
   }
   aside button:hover {
     background-color: hsla(71, 73%, 54%, 0.8);
@@ -100,7 +106,9 @@
 
   }
   summary h1 {
+    font-size: 20px;
     margin-top: -0.3rem;
+    margin-bottom: -0.2rem;
     color: hsl(204, 43%, 93%);
   }
   summary p {
@@ -110,7 +118,6 @@
   }
 }
 
-/* Desktop full screen */
 @media (min-width: 1080px) {
   main {
     margin-left: 10rem;
@@ -118,7 +125,6 @@
   }
 }
 
-/* Desktop full screen */
 @media (min-width: 1200px) {
   main {
     margin-left: 15rem;
@@ -126,10 +132,16 @@
   }
 }
 
-/* Desktop full screen */
 @media (min-width: 1440px) {
   main {
     margin-left: 20rem;
     margin-right: 20rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  main {
+    margin-left: 35rem;
+    margin-right: 35rem;
   }
 }
